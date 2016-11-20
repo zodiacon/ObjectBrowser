@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ObjectBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBrowserDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Clipboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NtDll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectGeneralPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ObjectBrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBrowserDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Clipboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecurityInformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectGeneralPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ObjectBrowser.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ObjectBrowser.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ObjectBrowserDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ObjectBrowser.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\alarmclock.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\car_compact_green.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cpu.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cube_molecule.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cubes.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\desktop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\disk_green.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\document.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\factory.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\flag_checkered.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\flash.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\folder.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\folder_closed.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\gear.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\gears.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hand_stop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hourglass.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\key1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\lightbulb_on.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\lock.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mail.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\package.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PCI-card.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\plug.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refresh.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\registry.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\shield.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\shield_red.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sort_az_ascending.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sort_az_descending.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\thread.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\trafficlight_on.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\warning.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\workstation2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
