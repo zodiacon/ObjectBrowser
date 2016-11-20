@@ -1,2 +1,3 @@
-# ObjectBrowser
-An alternative tool to Sysinternals WinObj tool (nicer icons!)
+# Object Browser
+An alternative tool to Sysinternals WinObj tool (with more icons).
+
