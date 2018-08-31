@@ -106,8 +106,8 @@ int CALLBACK CObjectView::SortFunction(LPARAM index1, LPARAM index2, LPARAM lPar
 	CObjectView* view = (CObjectView*)lParamSort;
 	auto& list = view->GetListCtrl();
 	bool asc = view->m_Ascending;
-	auto s1 = list.GetItemText(index1, view->m_SortColumn);
-	auto s2 = list.GetItemText(index2, view->m_SortColumn);
+	auto s1 = list.GetItemText((int)index1, view->m_SortColumn);
+	auto s2 = list.GetItemText((int)index2, view->m_SortColumn);
 	int result = s1.CompareNoCase(s2);
 	return asc ? result : -result;
 }
@@ -120,6 +120,7 @@ void CObjectView::UpdateList() {
 	CWaitCursor wait;
 
 	auto& list = GetListCtrl();
+	list.SetRedraw(FALSE);
 
 	auto items = m_Manager.GetFolders(folder);
 	list.LockWindowUpdate();
@@ -136,6 +137,8 @@ void CObjectView::UpdateList() {
 	}
 	list.SortItemsEx(SortFunction, (DWORD_PTR)this);
 	list.UnlockWindowUpdate();
+	list.SetRedraw();
+
 	GetDocument()->SetObjectCount(list.GetItemCount());
 }
 
